@@ -1,0 +1,112 @@
+<html>
+
+<head>
+  
+  <meta charset="UTF-8">
+ 
+  <title>Intro p5.js</title>
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+
+    body
+
+    {
+
+      background-color: aquamarine;
+
+    }
+    
+    h3
+ 
+  {
+ 
+    font-size: 25px !important;
+ 
+  }
+ 
+  canvas {
+ 
+    border:5px solid rgb(0, 255, 136);
+ 
+  }
+
+  button
+
+  {
+
+    height: 30px;
+
+    width: 300px;
+
+  }
+
+  input
+
+  {
+
+    height: 30px;
+
+    width: 300px;
+
+    text-align: center;
+
+  }
+
+  label
+  
+  {
+
+    font-size: 20;
+
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+  <center>
+    
+    <br>
+
+<div class="container">
+
+	<h3 class="btn btn-info">P5.js Project</h3>
+	
+  <hr>
+
+  <label><kbd>Filter Color:</kbd></label>
+
+  <br>
+
+  <input id="color_name" placeholder="Enter Filter Color">
+
+  <hr>
+
+  <button onclick="filter_tint()" class="btn btn-primary">Apply Filter</button>
+ 
+  <hr>
+  
+  <button onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
+
+</div>
+
+</center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
+
